@@ -10,7 +10,7 @@ authors:
   - family-names: Hsieh
     given-names: Yu-Ming
     affiliation: "National Cheng Kung University"
-repository-code: "https://github.com/Dedi42/hold-escalation.git"
+repository-code: "https://github.com/Dedi42/lot-hold-escalation"
 keywords: [lot hold, escalation policy, survival analysis, deep learning, semiconductor manufacturing]
 preferred-citation:
   type: article
