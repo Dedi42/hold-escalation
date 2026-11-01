@@ -1,0 +1,10 @@
+model,seeds,sec_per_fit,epochs,params,n_trees,hp
+LightGBM landmark (paper features),5,0.797602,,,137.6,"{""lr"": 0.02, ""leaves"": 31, ""min_child"": 20, ""bagging"": 1.0, ""colsample"": 0.7, ""l2"": 1.0}"
+LightGBM landmark (ext. features),5,1.71139,,,111.8,"{""lr"": 0.02, ""leaves"": 127, ""min_child"": 100, ""bagging"": 0.8, ""colsample"": 0.7, ""l2"": 1.0}"
+LightGBM gain regression (ext.),5,1.36737,,,107.2,"{""lr"": 0.02, ""leaves"": 63, ""min_child"": 50, ""bagging"": 0.6, ""colsample"": 0.9, ""l2"": 0.0}"
+LightGBM LambdaRank (ext.),5,1.18665,,,34.6,"{""lr"": 0.1, ""leaves"": 127, ""min_child"": 20, ""bagging"": 0.6, ""colsample"": 1.0, ""l2"": 10.0}"
+MLP survival (paper features),5,2.15432,6.2,570004,,"{""lr"": 0.001, ""wd"": 1e-05, ""dropout"": 0.1, ""hidden"": 512, ""layers"": 3}"
+MLP survival (ext.),5,2.2522,8,95636,,"{""lr"": 0.001, ""wd"": 1e-06, ""dropout"": 0.1, ""hidden"": 256, ""layers"": 2}"
+FT-Transformer survival (ext.),5,70.2933,24,32597,,"{""lr"": 0.0003, ""wd"": 0.0001, ""dropout"": 0.1, ""d"": 32, ""layers"": 3, ""heads"": 4}"
+LotSeq survival (ext. + history),5,10.9174,7,190612,,"{""lr"": 0.002, ""wd"": 1e-05, ""dropout"": 0.2, ""hidden"": 256, ""layers"": 2, ""d_seq"": 64, ""seq_layers"": 2, ""heads"": 4}"
+LotSeq decision-focused ranker,5,8.26579,7.6,184192,,"{""lr"": 0.0003, ""wd"": 1e-06, ""dropout"": 0.2, ""hidden"": 256, ""layers"": 2, ""d_seq"": 64, ""seq_layers"": 2, ""heads"": 4, ""power"": 0.5, ""warm"": true}"

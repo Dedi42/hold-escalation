@@ -1,0 +1,31 @@
+# Copy to config/local.yaml (git-ignored) and replace the <...> placeholders with the
+# column names of your own MES export. Never commit config/local.yaml.
+holds:
+  path: data/raw/<hold_events_file>.csv     # csv, parquet, pkl, xls(x)
+  filters:                                   # optional: keep rows where column value is in list
+    <transaction_type_column>: ["<hold transaction value>"]
+  exclude:                                   # optional: drop rows, e.g. deleted transactions
+    <delete_flag_column>: ["Y"]
+  time_format: null                          # e.g. "%Y%m%d %H%M%S" for compact timestamps
+  time_chars: 30                             # keep the first N characters of time strings
+  columns:
+    lot_id: <lot id column>
+    step: <step column>
+    reason: <hold reason column>
+    department: <responsible department column>
+    start_time: <hold start column>
+    release_time: <hold release column>
+    priority: <priority column>
+    lot_type: <lot type column>
+    product_family: <package or product column>
+    quantity: <wafer quantity column>
+    rework: <rework flag column>
+  yes_values:
+    rework: ["Y"]
+lots:                                        # optional; needed only for the delivery analysis
+  path: data/raw/<lots_file>.csv
+  columns:
+    lot_id: <lot id column>
+    completion_time: <last track-out column>
+    due_time: <customer due date column>
+    risk: <optional delivery risk column>

@@ -1,0 +1,5 @@
+# Benchmark tambahan (deep learning). Install requirements.txt dulu, lalu:
+#   GPU NVIDIA : pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   CPU saja   : pip install torch
+torch>=2.1
+pytest>=7.0

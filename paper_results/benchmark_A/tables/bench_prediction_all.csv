@@ -1,0 +1,532 @@
+elapsed_h,n,C,AUC_8h,top10_capture,model,seed,IBS
+0.5,4543,0.435503,0.34338,0.0579286,Static p90 rule,-,
+1.0,3427,0.430832,0.354816,0.0642275,Static p90 rule,-,
+2.0,2140,0.426835,0.383139,0.075618,Static p90 rule,-,
+4.0,1115,0.452341,0.436738,0.0916704,Static p90 rule,-,
+8.0,600,0.499691,0.509029,0.106684,Static p90 rule,-,
+16.0,311,0.474065,0.453284,0.144572,Static p90 rule,-,
+24.0,190,0.500196,0.517954,0.210001,Static p90 rule,-,
+48.0,53,0.469821,0.476626,0.0657092,Static p90 rule,-,
+pooled,12379,0.451401,0.420764,0.0829816,Static p90 rule,-,
+0.5,4543,0.545553,0.619772,0.134303,Kaplan–Meier (D×R),-,
+1.0,3427,0.547734,0.609195,0.129647,Kaplan–Meier (D×R),-,
+2.0,2140,0.536493,0.573988,0.13483,Kaplan–Meier (D×R),-,
+4.0,1115,0.527975,0.535668,0.149025,Kaplan–Meier (D×R),-,
+8.0,600,0.533034,0.532366,0.152169,Kaplan–Meier (D×R),-,
+16.0,311,0.538472,0.510483,0.132513,Kaplan–Meier (D×R),-,
+24.0,190,0.585276,0.603997,0.170827,Kaplan–Meier (D×R),-,
+48.0,53,0.633756,0.835366,0.114039,Kaplan–Meier (D×R),-,
+pooled,12379,0.529349,0.555907,0.130322,Kaplan–Meier (D×R),-,
+0.5,4543,0.639318,0.812569,0.406001,LightGBM (log T),-,
+1.0,3427,0.631359,0.796958,0.362628,LightGBM (log T),-,
+2.0,2140,0.633506,0.766013,0.25955,LightGBM (log T),-,
+4.0,1115,0.637882,0.728157,0.175321,LightGBM (log T),-,
+8.0,600,0.580934,0.59717,0.13988,LightGBM (log T),-,
+16.0,311,0.561873,0.657677,0.124755,LightGBM (log T),-,
+24.0,190,0.468444,0.44117,0.120197,LightGBM (log T),-,
+48.0,53,0.535768,0.493902,0.0997002,LightGBM (log T),-,
+pooled,12379,0.62275,0.727436,0.265842,LightGBM (log T),-,
+0.5,4543,0.625185,0.846293,0.337068,Landmark GBM,-,
+1.0,3427,0.6468,0.839926,0.330447,Landmark GBM,-,
+2.0,2140,0.668009,0.811545,0.291224,Landmark GBM,-,
+4.0,1115,0.64672,0.72378,0.229364,Landmark GBM,-,
+8.0,600,0.595119,0.609675,0.266741,Landmark GBM,-,
+16.0,311,0.57442,0.531557,0.280781,Landmark GBM,-,
+24.0,190,0.638018,0.665425,0.269292,Landmark GBM,-,
+48.0,53,0.645306,0.784553,0.130875,Landmark GBM,-,
+pooled,12379,0.630418,0.755293,0.290459,Landmark GBM,-,
+0.5,4543,0.65593,0.863694,0.415089,Ensemble (paper),-,
+1.0,3427,0.660063,0.852034,0.381883,Ensemble (paper),-,
+2.0,2140,0.672089,0.821236,0.300097,Ensemble (paper),-,
+4.0,1115,0.670372,0.770439,0.265909,Ensemble (paper),-,
+8.0,600,0.613356,0.645195,0.232896,Ensemble (paper),-,
+16.0,311,0.603845,0.65361,0.230336,Ensemble (paper),-,
+24.0,190,0.563726,0.556685,0.229656,Ensemble (paper),-,
+48.0,53,0.603204,0.65752,0.129702,Ensemble (paper),-,
+pooled,12379,0.647708,0.773531,0.314403,Ensemble (paper),-,
+0.5,4543,0.640287,0.856721,0.377836,LightGBM landmark (paper features),1,
+1.0,3427,0.652706,0.843197,0.337837,LightGBM landmark (paper features),1,
+2.0,2140,0.670501,0.80773,0.315142,LightGBM landmark (paper features),1,
+4.0,1115,0.637359,0.700976,0.260616,LightGBM landmark (paper features),1,
+8.0,600,0.57119,0.580169,0.262897,LightGBM landmark (paper features),1,
+16.0,311,0.569455,0.516572,0.307644,LightGBM landmark (paper features),1,
+24.0,190,0.616384,0.638211,0.25392,LightGBM landmark (paper features),1,
+48.0,53,0.607675,0.705285,0.158849,LightGBM landmark (paper features),1,
+pooled,12379,0.634977,0.751376,0.308241,LightGBM landmark (paper features),1,
+0.5,4543,0.633467,0.852046,0.335757,LightGBM landmark (paper features),2,
+1.0,3427,0.647838,0.838138,0.303121,LightGBM landmark (paper features),2,
+2.0,2140,0.668092,0.803609,0.288018,LightGBM landmark (paper features),2,
+4.0,1115,0.637295,0.704816,0.250204,LightGBM landmark (paper features),2,
+8.0,600,0.569508,0.579824,0.268151,LightGBM landmark (paper features),2,
+16.0,311,0.580288,0.534189,0.303192,LightGBM landmark (paper features),2,
+24.0,190,0.62217,0.645777,0.254723,LightGBM landmark (paper features),2,
+48.0,53,0.628539,0.756098,0.158849,LightGBM landmark (paper features),2,
+pooled,12379,0.63153,0.74989,0.289878,LightGBM landmark (paper features),2,
+0.5,4543,0.637498,0.855902,0.347949,LightGBM landmark (paper features),3,
+1.0,3427,0.651109,0.841241,0.32588,LightGBM landmark (paper features),3,
+2.0,2140,0.666527,0.80084,0.292191,LightGBM landmark (paper features),3,
+4.0,1115,0.642193,0.713015,0.257255,LightGBM landmark (paper features),3,
+8.0,600,0.574096,0.588313,0.285752,LightGBM landmark (paper features),3,
+16.0,311,0.568209,0.517225,0.281795,LightGBM landmark (paper features),3,
+24.0,190,0.613673,0.628444,0.297583,LightGBM landmark (paper features),3,
+48.0,53,0.635246,0.699187,0.152857,LightGBM landmark (paper features),3,
+pooled,12379,0.633465,0.751391,0.301993,LightGBM landmark (paper features),3,
+0.5,4543,0.637533,0.850432,0.382868,LightGBM landmark (paper features),4,
+1.0,3427,0.650099,0.838578,0.350466,LightGBM landmark (paper features),4,
+2.0,2140,0.671509,0.812072,0.312268,LightGBM landmark (paper features),4,
+4.0,1115,0.633906,0.696548,0.245421,LightGBM landmark (paper features),4,
+8.0,600,0.554656,0.552254,0.264007,LightGBM landmark (paper features),4,
+16.0,311,0.565467,0.51207,0.239413,LightGBM landmark (paper features),4,
+24.0,190,0.613282,0.633921,0.237201,LightGBM landmark (paper features),4,
+48.0,53,0.598733,0.711382,0.120957,LightGBM landmark (paper features),4,
+pooled,12379,0.632866,0.746745,0.307049,LightGBM landmark (paper features),4,
+0.5,4543,0.638428,0.850952,0.354283,LightGBM landmark (paper features),5,
+1.0,3427,0.651746,0.839515,0.333716,LightGBM landmark (paper features),5,
+2.0,2140,0.669041,0.805014,0.32236,LightGBM landmark (paper features),5,
+4.0,1115,0.635563,0.699052,0.258566,LightGBM landmark (paper features),5,
+8.0,600,0.567365,0.574439,0.265843,LightGBM landmark (paper features),5,
+16.0,311,0.56232,0.506612,0.265179,LightGBM landmark (paper features),5,
+24.0,190,0.613617,0.637026,0.18628,LightGBM landmark (paper features),5,
+48.0,53,0.586811,0.682927,0.109023,LightGBM landmark (paper features),5,
+pooled,12379,0.633484,0.747566,0.299105,LightGBM landmark (paper features),5,
+0.5,4543,0.637908,0.855834,0.376021,LightGBM landmark (paper features),ensemble,
+1.0,3427,0.651844,0.842767,0.342296,LightGBM landmark (paper features),ensemble,
+2.0,2140,0.671333,0.810482,0.310651,LightGBM landmark (paper features),ensemble,
+4.0,1115,0.640812,0.709047,0.262224,LightGBM landmark (paper features),ensemble,
+8.0,600,0.57095,0.579507,0.279601,LightGBM landmark (paper features),ensemble,
+16.0,311,0.565342,0.511179,0.271912,LightGBM landmark (paper features),ensemble,
+24.0,190,0.61412,0.630872,0.26062,LightGBM landmark (paper features),ensemble,
+48.0,53,0.609911,0.697154,0.158849,LightGBM landmark (paper features),ensemble,
+pooled,12379,0.634354,0.752105,0.312049,LightGBM landmark (paper features),ensemble,
+0.5,4543,0.649587,0.860873,0.406471,LightGBM landmark (ext. features),1,
+1.0,3427,0.65674,0.848793,0.377735,LightGBM landmark (ext. features),1,
+2.0,2140,0.669444,0.818558,0.34381,LightGBM landmark (ext. features),1,
+4.0,1115,0.65804,0.742352,0.266083,LightGBM landmark (ext. features),1,
+8.0,600,0.595962,0.615806,0.212162,LightGBM landmark (ext. features),1,
+16.0,311,0.597457,0.576033,0.237787,LightGBM landmark (ext. features),1,
+24.0,190,0.633127,0.660343,0.291988,LightGBM landmark (ext. features),1,
+48.0,53,0.716095,0.981707,0.202683,LightGBM landmark (ext. features),1,
+pooled,12379,0.642581,0.767088,0.323991,LightGBM landmark (ext. features),1,
+0.5,4543,0.648715,0.863474,0.422618,LightGBM landmark (ext. features),2,
+1.0,3427,0.658223,0.851726,0.399872,LightGBM landmark (ext. features),2,
+2.0,2140,0.674406,0.823746,0.342061,LightGBM landmark (ext. features),2,
+4.0,1115,0.661301,0.742153,0.274348,LightGBM landmark (ext. features),2,
+8.0,600,0.604318,0.62578,0.213676,LightGBM landmark (ext. features),2,
+16.0,311,0.598953,0.582949,0.230246,LightGBM landmark (ext. features),2,
+24.0,190,0.622561,0.653004,0.20289,LightGBM landmark (ext. features),2,
+48.0,53,0.680328,0.969512,0.109488,LightGBM landmark (ext. features),2,
+pooled,12379,0.643967,0.770008,0.324117,LightGBM landmark (ext. features),2,
+0.5,4543,0.651054,0.859907,0.382673,LightGBM landmark (ext. features),3,
+1.0,3427,0.659205,0.848943,0.363465,LightGBM landmark (ext. features),3,
+2.0,2140,0.673309,0.821495,0.329176,LightGBM landmark (ext. features),3,
+4.0,1115,0.659567,0.738219,0.237571,LightGBM landmark (ext. features),3,
+8.0,600,0.603249,0.627811,0.214901,LightGBM landmark (ext. features),3,
+16.0,311,0.599545,0.584993,0.237097,LightGBM landmark (ext. features),3,
+24.0,190,0.629353,0.659553,0.194032,LightGBM landmark (ext. features),3,
+48.0,53,0.684054,0.971545,0.0894272,LightGBM landmark (ext. features),3,
+pooled,12379,0.64473,0.768034,0.301923,LightGBM landmark (ext. features),3,
+0.5,4543,0.64881,0.861608,0.396546,LightGBM landmark (ext. features),4,
+1.0,3427,0.658749,0.850883,0.383294,LightGBM landmark (ext. features),4,
+2.0,2140,0.673808,0.821734,0.322092,LightGBM landmark (ext. features),4,
+4.0,1115,0.661212,0.742679,0.267188,LightGBM landmark (ext. features),4,
+8.0,600,0.606603,0.631048,0.203003,LightGBM landmark (ext. features),4,
+16.0,311,0.60504,0.594693,0.186764,LightGBM landmark (ext. features),4,
+24.0,190,0.623931,0.660005,0.177406,LightGBM landmark (ext. features),4,
+48.0,53,0.673621,0.957317,0.0894272,LightGBM landmark (ext. features),4,
+pooled,12379,0.64424,0.769987,0.30697,LightGBM landmark (ext. features),4,
+0.5,4543,0.649124,0.863524,0.397346,LightGBM landmark (ext. features),5,
+1.0,3427,0.659131,0.852461,0.380368,LightGBM landmark (ext. features),5,
+2.0,2140,0.676137,0.825564,0.348936,LightGBM landmark (ext. features),5,
+4.0,1115,0.665608,0.751991,0.290962,LightGBM landmark (ext. features),5,
+8.0,600,0.60566,0.632562,0.209494,LightGBM landmark (ext. features),5,
+16.0,311,0.599389,0.582036,0.230409,LightGBM landmark (ext. features),5,
+24.0,190,0.615322,0.635163,0.257537,LightGBM landmark (ext. features),5,
+48.0,53,0.684799,0.957317,0.141321,LightGBM landmark (ext. features),5,
+pooled,12379,0.645164,0.771721,0.321954,LightGBM landmark (ext. features),5,
+0.5,4543,0.652243,0.865577,0.410811,LightGBM landmark (ext. features),ensemble,
+1.0,3427,0.661211,0.854258,0.385349,LightGBM landmark (ext. features),ensemble,
+2.0,2140,0.676214,0.825943,0.327556,LightGBM landmark (ext. features),ensemble,
+4.0,1115,0.663573,0.747681,0.275844,LightGBM landmark (ext. features),ensemble,
+8.0,600,0.606926,0.630759,0.210496,LightGBM landmark (ext. features),ensemble,
+16.0,311,0.598849,0.582471,0.231847,LightGBM landmark (ext. features),ensemble,
+24.0,190,0.627285,0.65577,0.255354,LightGBM landmark (ext. features),ensemble,
+48.0,53,0.692996,0.97561,0.141703,LightGBM landmark (ext. features),ensemble,
+pooled,12379,0.646573,0.772577,0.32037,LightGBM landmark (ext. features),ensemble,
+0.5,4543,0.640015,0.865246,0.408482,LightGBM gain regression (ext.),1,
+1.0,3427,0.651168,0.854425,0.361248,LightGBM gain regression (ext.),1,
+2.0,2140,0.668905,0.82729,0.300349,LightGBM gain regression (ext.),1,
+4.0,1115,0.667128,0.750933,0.250482,LightGBM gain regression (ext.),1,
+8.0,600,0.60009,0.62118,0.173864,LightGBM gain regression (ext.),1,
+16.0,311,0.591288,0.57251,0.26017,LightGBM gain regression (ext.),1,
+24.0,190,0.633322,0.669885,0.263501,LightGBM gain regression (ext.),1,
+48.0,53,0.691878,0.949187,0.0977907,LightGBM gain regression (ext.),1,
+pooled,12379,0.638653,0.772286,0.30388,LightGBM gain regression (ext.),1,
+0.5,4543,0.63931,0.860237,0.429696,LightGBM gain regression (ext.),2,
+1.0,3427,0.649319,0.84649,0.375166,LightGBM gain regression (ext.),2,
+2.0,2140,0.6699,0.823463,0.345713,LightGBM gain regression (ext.),2,
+4.0,1115,0.664671,0.75017,0.264507,LightGBM gain regression (ext.),2,
+8.0,600,0.592642,0.612735,0.209106,LightGBM gain regression (ext.),2,
+16.0,311,0.59539,0.569074,0.247889,LightGBM gain regression (ext.),2,
+24.0,190,0.62558,0.662602,0.255005,LightGBM gain regression (ext.),2,
+48.0,53,0.673621,0.922764,0.141321,LightGBM gain regression (ext.),2,
+pooled,12379,0.63764,0.767569,0.324624,LightGBM gain regression (ext.),2,
+0.5,4543,0.636345,0.857465,0.436866,LightGBM gain regression (ext.),3,
+1.0,3427,0.648922,0.848329,0.386206,LightGBM gain regression (ext.),3,
+2.0,2140,0.667859,0.826003,0.317342,LightGBM gain regression (ext.),3,
+4.0,1115,0.666057,0.753616,0.238764,LightGBM gain regression (ext.),3,
+8.0,600,0.607088,0.638458,0.163164,LightGBM gain regression (ext.),3,
+16.0,311,0.595692,0.578447,0.221241,LightGBM gain regression (ext.),3,
+24.0,190,0.638269,0.680047,0.300255,LightGBM gain regression (ext.),3,
+48.0,53,0.686662,0.95122,0.118725,LightGBM gain regression (ext.),3,
+pooled,12379,0.636762,0.770943,0.315349,LightGBM gain regression (ext.),3,
+0.5,4543,0.640436,0.866133,0.42538,LightGBM gain regression (ext.),4,
+1.0,3427,0.651631,0.856035,0.392383,LightGBM gain regression (ext.),4,
+2.0,2140,0.67073,0.833115,0.319958,LightGBM gain regression (ext.),4,
+4.0,1115,0.670719,0.759566,0.262995,LightGBM gain regression (ext.),4,
+8.0,600,0.607539,0.63442,0.178733,LightGBM gain regression (ext.),4,
+16.0,311,0.595484,0.582275,0.208496,LightGBM gain regression (ext.),4,
+24.0,190,0.626195,0.650576,0.29217,LightGBM gain regression (ext.),4,
+48.0,53,0.703428,0.955285,0.157314,LightGBM gain regression (ext.),4,
+pooled,12379,0.639782,0.775882,0.319342,LightGBM gain regression (ext.),4,
+0.5,4543,0.639148,0.860121,0.431309,LightGBM gain regression (ext.),5,
+1.0,3427,0.647462,0.850592,0.381881,LightGBM gain regression (ext.),5,
+2.0,2140,0.669698,0.825784,0.331241,LightGBM gain regression (ext.),5,
+4.0,1115,0.664792,0.748121,0.257928,LightGBM gain regression (ext.),5,
+8.0,600,0.609473,0.642302,0.240821,LightGBM gain regression (ext.),5,
+16.0,311,0.59268,0.583928,0.270464,LightGBM gain regression (ext.),5,
+24.0,190,0.618257,0.642897,0.279024,LightGBM gain regression (ext.),5,
+48.0,53,0.702683,0.947154,0.12732,LightGBM gain regression (ext.),5,
+pooled,12379,0.637813,0.770996,0.331068,LightGBM gain regression (ext.),5,
+0.5,4543,0.641088,0.864866,0.432857,LightGBM gain regression (ext.),ensemble,
+1.0,3427,0.65116,0.854115,0.389056,LightGBM gain regression (ext.),ensemble,
+2.0,2140,0.671028,0.829844,0.313186,LightGBM gain regression (ext.),ensemble,
+4.0,1115,0.669278,0.756205,0.234309,LightGBM gain regression (ext.),ensemble,
+8.0,600,0.604766,0.632395,0.194534,LightGBM gain regression (ext.),ensemble,
+16.0,311,0.59807,0.583493,0.24808,LightGBM gain regression (ext.),ensemble,
+24.0,190,0.629689,0.660569,0.277517,LightGBM gain regression (ext.),ensemble,
+48.0,53,0.699702,0.945122,0.0868926,LightGBM gain regression (ext.),ensemble,
+pooled,12379,0.639788,0.774242,0.317663,LightGBM gain regression (ext.),ensemble,
+0.5,4543,0.602236,0.803393,0.280454,LightGBM LambdaRank (ext.),1,
+1.0,3427,0.610692,0.79101,0.251099,LightGBM LambdaRank (ext.),1,
+2.0,2140,0.637574,0.779833,0.240581,LightGBM LambdaRank (ext.),1,
+4.0,1115,0.646678,0.73664,0.195791,LightGBM LambdaRank (ext.),1,
+8.0,600,0.527865,0.533267,0.252564,LightGBM LambdaRank (ext.),1,
+16.0,311,0.569902,0.536451,0.266049,LightGBM LambdaRank (ext.),1,
+24.0,190,0.627592,0.679313,0.302388,LightGBM LambdaRank (ext.),1,
+48.0,53,0.628167,0.752033,0.133217,LightGBM LambdaRank (ext.),1,
+pooled,12379,0.605083,0.726956,0.248902,LightGBM LambdaRank (ext.),1,
+0.5,4543,0.623455,0.844351,0.361904,LightGBM LambdaRank (ext.),2,
+1.0,3427,0.635364,0.834388,0.345669,LightGBM LambdaRank (ext.),2,
+2.0,2140,0.659899,0.813092,0.309892,LightGBM LambdaRank (ext.),2,
+4.0,1115,0.664103,0.759248,0.230562,LightGBM LambdaRank (ext.),2,
+8.0,600,0.61408,0.64806,0.194917,LightGBM LambdaRank (ext.),2,
+16.0,311,0.601976,0.610091,0.24275,LightGBM LambdaRank (ext.),2,
+24.0,190,0.627648,0.653455,0.276414,LightGBM LambdaRank (ext.),2,
+48.0,53,0.686289,0.906504,0.123366,LightGBM LambdaRank (ext.),2,
+pooled,12379,0.628384,0.764135,0.294309,LightGBM LambdaRank (ext.),2,
+0.5,4543,0.620554,0.832105,0.336028,LightGBM LambdaRank (ext.),3,
+1.0,3427,0.629203,0.820623,0.313078,LightGBM LambdaRank (ext.),3,
+2.0,2140,0.655431,0.805879,0.292282,LightGBM LambdaRank (ext.),3,
+4.0,1115,0.663801,0.755255,0.245765,LightGBM LambdaRank (ext.),3,
+8.0,600,0.602648,0.634753,0.263247,LightGBM LambdaRank (ext.),3,
+16.0,311,0.594798,0.59639,0.235916,LightGBM LambdaRank (ext.),3,
+24.0,190,0.623903,0.644252,0.296576,LightGBM LambdaRank (ext.),3,
+48.0,53,0.634873,0.869919,0.126514,LightGBM LambdaRank (ext.),3,
+pooled,12379,0.624577,0.754667,0.288362,LightGBM LambdaRank (ext.),3,
+0.5,4543,0.6233,0.847719,0.370556,LightGBM LambdaRank (ext.),4,
+1.0,3427,0.633599,0.835152,0.339641,LightGBM LambdaRank (ext.),4,
+2.0,2140,0.65932,0.815792,0.281821,LightGBM LambdaRank (ext.),4,
+4.0,1115,0.665085,0.756871,0.22481,LightGBM LambdaRank (ext.),4,
+8.0,600,0.614353,0.650903,0.223946,LightGBM LambdaRank (ext.),4,
+16.0,311,0.608955,0.626968,0.262684,LightGBM LambdaRank (ext.),4,
+24.0,190,0.635139,0.655996,0.287786,LightGBM LambdaRank (ext.),4,
+48.0,53,0.681818,0.910569,0.155198,LightGBM LambdaRank (ext.),4,
+pooled,12379,0.62832,0.766192,0.293995,LightGBM LambdaRank (ext.),4,
+0.5,4543,0.599105,0.790636,0.245477,LightGBM LambdaRank (ext.),5,
+1.0,3427,0.605299,0.77579,0.227361,LightGBM LambdaRank (ext.),5,
+2.0,2140,0.626935,0.755273,0.219876,LightGBM LambdaRank (ext.),5,
+4.0,1115,0.616873,0.67672,0.145342,LightGBM LambdaRank (ext.),5,
+8.0,600,0.571114,0.571118,0.178621,LightGBM LambdaRank (ext.),5,
+16.0,311,0.582625,0.547347,0.163649,LightGBM LambdaRank (ext.),5,
+24.0,190,0.618201,0.632057,0.165431,LightGBM LambdaRank (ext.),5,
+48.0,53,0.621088,0.768293,0.0692077,LightGBM LambdaRank (ext.),5,
+pooled,12379,0.600913,0.713862,0.199932,LightGBM LambdaRank (ext.),5,
+0.5,4543,0.620454,0.838167,0.314818,LightGBM LambdaRank (ext.),ensemble,
+1.0,3427,0.629846,0.825863,0.302233,LightGBM LambdaRank (ext.),ensemble,
+2.0,2140,0.656265,0.807941,0.268073,LightGBM LambdaRank (ext.),ensemble,
+4.0,1115,0.662141,0.753462,0.188261,LightGBM LambdaRank (ext.),ensemble,
+8.0,600,0.602117,0.629997,0.240197,LightGBM LambdaRank (ext.),ensemble,
+16.0,311,0.599576,0.599739,0.239798,LightGBM LambdaRank (ext.),ensemble,
+24.0,190,0.641819,0.668869,0.284104,LightGBM LambdaRank (ext.),ensemble,
+48.0,53,0.677347,0.914634,0.123366,LightGBM LambdaRank (ext.),ensemble,
+pooled,12379,0.624897,0.757857,0.266355,LightGBM LambdaRank (ext.),ensemble,
+0.5,4543,0.641534,0.835494,0.315694,MLP survival (paper features),1,0.0488341
+1.0,3427,0.647958,0.820355,0.293616,MLP survival (paper features),1,0.0488341
+2.0,2140,0.659322,0.780835,0.26984,MLP survival (paper features),1,0.0488341
+4.0,1115,0.626006,0.685249,0.231066,MLP survival (paper features),1,0.0488341
+8.0,600,0.573876,0.602176,0.26494,MLP survival (paper features),1,0.0488341
+16.0,311,0.575479,0.553893,0.294658,MLP survival (paper features),1,0.0488341
+24.0,190,0.634748,0.656617,0.26737,MLP survival (paper features),1,0.0488341
+48.0,53,0.709389,0.920732,0.15553,MLP survival (paper features),1,0.0488341
+pooled,12379,0.631999,0.738862,0.276512,MLP survival (paper features),1,0.0488341
+0.5,4543,0.640596,0.841147,0.319291,MLP survival (paper features),2,0.04839
+1.0,3427,0.64443,0.824807,0.304808,MLP survival (paper features),2,0.04839
+2.0,2140,0.662374,0.789075,0.296845,MLP survival (paper features),2,0.04839
+4.0,1115,0.630752,0.691872,0.27861,MLP survival (paper features),2,0.04839
+8.0,600,0.593087,0.627644,0.286932,MLP survival (paper features),2,0.04839
+16.0,311,0.59565,0.587908,0.326491,MLP survival (paper features),2,0.04839
+24.0,190,0.627928,0.64126,0.290922,MLP survival (paper features),2,0.04839
+48.0,53,0.747392,0.926829,0.204693,MLP survival (paper features),2,0.04839
+pooled,12379,0.633071,0.746233,0.29847,MLP survival (paper features),2,0.04839
+0.5,4543,0.64273,0.837509,0.339117,MLP survival (paper features),3,0.0490207
+1.0,3427,0.648555,0.820789,0.307171,MLP survival (paper features),3,0.0490207
+2.0,2140,0.657984,0.782488,0.307109,MLP survival (paper features),3,0.0490207
+4.0,1115,0.626113,0.685683,0.273389,MLP survival (paper features),3,0.0490207
+8.0,600,0.589636,0.623316,0.286239,MLP survival (paper features),3,0.0490207
+16.0,311,0.580797,0.553415,0.321805,MLP survival (paper features),3,0.0490207
+24.0,190,0.631617,0.658537,0.266597,MLP survival (paper features),3,0.0490207
+48.0,53,0.729508,0.900407,0.206625,MLP survival (paper features),3,0.0490207
+pooled,12379,0.633632,0.741262,0.303677,MLP survival (paper features),3,0.0490207
+0.5,4543,0.640846,0.841149,0.351295,MLP survival (paper features),4,0.0457537
+1.0,3427,0.647427,0.825814,0.326054,MLP survival (paper features),4,0.0457537
+2.0,2140,0.655873,0.782451,0.302869,MLP survival (paper features),4,0.0457537
+4.0,1115,0.631572,0.697659,0.271952,MLP survival (paper features),4,0.0457537
+8.0,600,0.578157,0.580069,0.291292,MLP survival (paper features),4,0.0457537
+16.0,311,0.624047,0.636799,0.298752,MLP survival (paper features),4,0.0457537
+24.0,190,0.637095,0.668586,0.237602,MLP survival (paper features),4,0.0457537
+48.0,53,0.714605,0.908537,0.158772,MLP survival (paper features),4,0.0457537
+pooled,12379,0.632904,0.744816,0.305048,MLP survival (paper features),4,0.0457537
+0.5,4543,0.646889,0.850143,0.358973,MLP survival (paper features),5,0.0464775
+1.0,3427,0.65418,0.835455,0.31481,MLP survival (paper features),5,0.0464775
+2.0,2140,0.667111,0.803222,0.2751,MLP survival (paper features),5,0.0464775
+4.0,1115,0.647668,0.730688,0.250036,MLP survival (paper features),5,0.0464775
+8.0,600,0.60166,0.631616,0.282004,MLP survival (paper features),5,0.0464775
+16.0,311,0.595338,0.590996,0.287725,MLP survival (paper features),5,0.0464775
+24.0,190,0.637543,0.666102,0.272075,MLP survival (paper features),5,0.0464775
+48.0,53,0.726528,0.914634,0.158772,MLP survival (paper features),5,0.0464775
+pooled,12379,0.640047,0.758934,0.297177,MLP survival (paper features),5,0.0464775
+0.5,4543,0.647789,0.854226,0.373019,MLP survival (paper features),ensemble,
+1.0,3427,0.654547,0.838453,0.333372,MLP survival (paper features),ensemble,
+2.0,2140,0.668119,0.801577,0.306592,MLP survival (paper features),ensemble,
+4.0,1115,0.639316,0.709298,0.295713,MLP survival (paper features),ensemble,
+8.0,600,0.597296,0.625669,0.277291,MLP survival (paper features),ensemble,
+16.0,311,0.598257,0.591757,0.331799,MLP survival (paper features),ensemble,
+24.0,190,0.63676,0.660908,0.290508,MLP survival (paper features),ensemble,
+48.0,53,0.736215,0.924797,0.204693,MLP survival (paper features),ensemble,
+pooled,12379,0.640262,0.757169,0.319319,MLP survival (paper features),ensemble,
+0.5,4543,0.667149,0.874433,0.440093,MLP survival (ext.),1,0.0415902
+1.0,3427,0.670459,0.862629,0.404504,MLP survival (ext.),1,0.0415902
+2.0,2140,0.688434,0.832038,0.360904,MLP survival (ext.),1,0.0415902
+4.0,1115,0.670066,0.749184,0.298055,MLP survival (ext.),1,0.0415902
+8.0,600,0.638374,0.671047,0.322991,MLP survival (ext.),1,0.0415902
+16.0,311,0.637238,0.65833,0.3494,MLP survival (ext.),1,0.0415902
+24.0,190,0.655543,0.690944,0.32636,MLP survival (ext.),1,0.0415902
+48.0,53,0.71237,0.97561,0.199534,MLP survival (ext.),1,0.0415902
+pooled,12379,0.658948,0.784252,0.367693,MLP survival (ext.),1,0.0415902
+0.5,4543,0.653609,0.854344,0.383695,MLP survival (ext.),2,0.0433565
+1.0,3427,0.657129,0.837831,0.349707,MLP survival (ext.),2,0.0433565
+2.0,2140,0.674509,0.805123,0.325883,MLP survival (ext.),2,0.0433565
+4.0,1115,0.643919,0.710849,0.289695,MLP survival (ext.),2,0.0433565
+8.0,600,0.618238,0.65814,0.285114,MLP survival (ext.),2,0.0433565
+16.0,311,0.62386,0.625489,0.287653,MLP survival (ext.),2,0.0433565
+24.0,190,0.658449,0.697042,0.281783,MLP survival (ext.),2,0.0433565
+48.0,53,0.734724,0.96748,0.201544,MLP survival (ext.),2,0.0433565
+pooled,12379,0.645226,0.762462,0.32612,MLP survival (ext.),2,0.0433565
+0.5,4543,0.666578,0.875668,0.443754,MLP survival (ext.),3,0.0404758
+1.0,3427,0.673146,0.867602,0.394019,MLP survival (ext.),3,0.0404758
+2.0,2140,0.694142,0.841902,0.355551,MLP survival (ext.),3,0.0404758
+4.0,1115,0.673296,0.765126,0.296148,MLP survival (ext.),3,0.0404758
+8.0,600,0.652096,0.689149,0.279078,MLP survival (ext.),3,0.0404758
+16.0,311,0.670891,0.700826,0.318107,MLP survival (ext.),3,0.0404758
+24.0,190,0.680921,0.733514,0.348891,MLP survival (ext.),3,0.0404758
+48.0,53,0.722802,0.930894,0.156408,MLP survival (ext.),3,0.0404758
+pooled,12379,0.661328,0.792956,0.358088,MLP survival (ext.),3,0.0404758
+0.5,4543,0.665764,0.871587,0.459237,MLP survival (ext.),4,0.041369
+1.0,3427,0.672535,0.865022,0.41833,MLP survival (ext.),4,0.041369
+2.0,2140,0.691551,0.837791,0.343291,MLP survival (ext.),4,0.041369
+4.0,1115,0.680044,0.78116,0.291627,MLP survival (ext.),4,0.041369
+8.0,600,0.65292,0.700775,0.280585,MLP survival (ext.),4,0.041369
+16.0,311,0.643304,0.687516,0.275105,MLP survival (ext.),4,0.041369
+24.0,190,0.631002,0.686201,0.281708,MLP survival (ext.),4,0.041369
+48.0,53,0.658718,0.835366,0.213381,MLP survival (ext.),4,0.041369
+pooled,12379,0.660478,0.791521,0.358455,MLP survival (ext.),4,0.041369
+0.5,4543,0.66361,0.865871,0.450856,MLP survival (ext.),5,0.0417274
+1.0,3427,0.670484,0.855912,0.401368,MLP survival (ext.),5,0.0417274
+2.0,2140,0.68755,0.823265,0.328151,MLP survival (ext.),5,0.0417274
+4.0,1115,0.66115,0.744051,0.283771,MLP survival (ext.),5,0.0417274
+8.0,600,0.647342,0.68689,0.305168,MLP survival (ext.),5,0.0417274
+16.0,311,0.665656,0.694258,0.316511,MLP survival (ext.),5,0.0417274
+24.0,190,0.68299,0.738369,0.343851,MLP survival (ext.),5,0.0417274
+48.0,53,0.736215,0.95122,0.198441,MLP survival (ext.),5,0.0417274
+pooled,12379,0.65741,0.781929,0.356665,MLP survival (ext.),5,0.0417274
+0.5,4543,0.668592,0.879411,0.444454,MLP survival (ext.),ensemble,
+1.0,3427,0.67499,0.869683,0.407801,MLP survival (ext.),ensemble,
+2.0,2140,0.694969,0.841206,0.345298,MLP survival (ext.),ensemble,
+4.0,1115,0.674729,0.764651,0.286196,MLP survival (ext.),ensemble,
+8.0,600,0.652299,0.695363,0.295076,MLP survival (ext.),ensemble,
+16.0,311,0.653358,0.685254,0.334119,MLP survival (ext.),ensemble,
+24.0,190,0.663089,0.71285,0.371834,MLP survival (ext.),ensemble,
+48.0,53,0.736215,0.96748,0.203522,MLP survival (ext.),ensemble,
+pooled,12379,0.662759,0.793722,0.362233,MLP survival (ext.),ensemble,
+0.5,4543,0.657973,0.861347,0.407925,FT-Transformer survival (ext.),1,0.0447512
+1.0,3427,0.662511,0.852976,0.380845,FT-Transformer survival (ext.),1,0.0447512
+2.0,2140,0.67367,0.818088,0.309651,FT-Transformer survival (ext.),1,0.0447512
+4.0,1115,0.655781,0.738802,0.222682,FT-Transformer survival (ext.),1,0.0447512
+8.0,600,0.638741,0.683196,0.231274,FT-Transformer survival (ext.),1,0.0447512
+16.0,311,0.60612,0.651022,0.288824,FT-Transformer survival (ext.),1,0.0447512
+24.0,190,0.602717,0.631549,0.276676,FT-Transformer survival (ext.),1,0.0447512
+48.0,53,0.687034,0.863821,0.134298,FT-Transformer survival (ext.),1,0.0447512
+pooled,12379,0.648887,0.774001,0.315551,FT-Transformer survival (ext.),1,0.0447512
+0.5,4543,0.655338,0.865952,0.377729,FT-Transformer survival (ext.),2,0.0452472
+1.0,3427,0.660078,0.851103,0.339168,FT-Transformer survival (ext.),2,0.0452472
+2.0,2140,0.674562,0.814885,0.267049,FT-Transformer survival (ext.),2,0.0452472
+4.0,1115,0.648154,0.722008,0.217378,FT-Transformer survival (ext.),2,0.0452472
+8.0,600,0.606498,0.639649,0.150406,FT-Transformer survival (ext.),2,0.0452472
+16.0,311,0.60101,0.646368,0.166074,FT-Transformer survival (ext.),2,0.0452472
+24.0,190,0.593381,0.646003,0.181913,FT-Transformer survival (ext.),2,0.0452472
+48.0,53,0.61997,0.845528,0.134298,FT-Transformer survival (ext.),2,0.0452472
+pooled,12379,0.645403,0.768974,0.270982,FT-Transformer survival (ext.),2,0.0452472
+0.5,4543,0.658111,0.864536,0.395043,FT-Transformer survival (ext.),3,0.0450035
+1.0,3427,0.660276,0.853916,0.358827,FT-Transformer survival (ext.),3,0.0450035
+2.0,2140,0.677228,0.825474,0.25936,FT-Transformer survival (ext.),3,0.0450035
+4.0,1115,0.671628,0.766426,0.188304,FT-Transformer survival (ext.),3,0.0450035
+8.0,600,0.63917,0.685455,0.22885,FT-Transformer survival (ext.),3,0.0450035
+16.0,311,0.65799,0.731318,0.201572,FT-Transformer survival (ext.),3,0.0450035
+24.0,190,0.593493,0.620709,0.245558,FT-Transformer survival (ext.),3,0.0450035
+48.0,53,0.635618,0.882114,0.134298,FT-Transformer survival (ext.),3,0.0450035
+pooled,12379,0.651201,0.782573,0.28671,FT-Transformer survival (ext.),3,0.0450035
+0.5,4543,0.647751,0.831738,0.35972,FT-Transformer survival (ext.),4,0.0475688
+1.0,3427,0.650293,0.820558,0.321345,FT-Transformer survival (ext.),4,0.0475688
+2.0,2140,0.658435,0.782185,0.257866,FT-Transformer survival (ext.),4,0.0475688
+4.0,1115,0.631372,0.706709,0.186235,FT-Transformer survival (ext.),4,0.0475688
+8.0,600,0.601771,0.627366,0.165312,FT-Transformer survival (ext.),4,0.0475688
+16.0,311,0.617628,0.672075,0.173045,FT-Transformer survival (ext.),4,0.0475688
+24.0,190,0.596791,0.635727,0.255563,FT-Transformer survival (ext.),4,0.0475688
+48.0,53,0.69076,0.941057,0.146208,FT-Transformer survival (ext.),4,0.0475688
+pooled,12379,0.636805,0.746575,0.26511,FT-Transformer survival (ext.),4,0.0475688
+0.5,4543,0.656119,0.861878,0.371375,FT-Transformer survival (ext.),5,0.0467513
+1.0,3427,0.657833,0.849391,0.338023,FT-Transformer survival (ext.),5,0.0467513
+2.0,2140,0.668895,0.814602,0.28674,FT-Transformer survival (ext.),5,0.0467513
+4.0,1115,0.652957,0.727982,0.218824,FT-Transformer survival (ext.),5,0.0467513
+8.0,600,0.598793,0.6363,0.153565,FT-Transformer survival (ext.),5,0.0467513
+16.0,311,0.585492,0.595215,0.22758,FT-Transformer survival (ext.),5,0.0467513
+24.0,190,0.622505,0.664521,0.270283,FT-Transformer survival (ext.),5,0.0467513
+48.0,53,0.674367,0.886179,0.159499,FT-Transformer survival (ext.),5,0.0467513
+pooled,12379,0.644629,0.766829,0.28319,FT-Transformer survival (ext.),5,0.0467513
+0.5,4543,0.664029,0.873625,0.407574,FT-Transformer survival (ext.),ensemble,
+1.0,3427,0.667546,0.862963,0.349206,FT-Transformer survival (ext.),ensemble,
+2.0,2140,0.681371,0.828831,0.26261,FT-Transformer survival (ext.),ensemble,
+4.0,1115,0.663995,0.750436,0.20638,FT-Transformer survival (ext.),ensemble,
+8.0,600,0.633419,0.676893,0.159439,FT-Transformer survival (ext.),ensemble,
+16.0,311,0.623071,0.671009,0.159717,FT-Transformer survival (ext.),ensemble,
+24.0,190,0.625915,0.675474,0.258706,FT-Transformer survival (ext.),ensemble,
+48.0,53,0.681818,0.953252,0.0907674,FT-Transformer survival (ext.),ensemble,
+pooled,12379,0.654593,0.78414,0.280473,FT-Transformer survival (ext.),ensemble,
+0.5,4543,0.6672,0.876037,0.443242,LotSeq survival (ext. + history),1,0.0421635
+1.0,3427,0.674797,0.866406,0.410419,LotSeq survival (ext. + history),1,0.0421635
+2.0,2140,0.693682,0.835352,0.350923,LotSeq survival (ext. + history),1,0.0421635
+4.0,1115,0.672894,0.759344,0.288701,LotSeq survival (ext. + history),1,0.0421635
+8.0,600,0.651467,0.693188,0.307485,LotSeq survival (ext. + history),1,0.0421635
+16.0,311,0.651239,0.689865,0.325286,LotSeq survival (ext. + history),1,0.0421635
+24.0,190,0.662586,0.711721,0.280165,LotSeq survival (ext. + history),1,0.0421635
+48.0,53,0.707154,0.920732,0.19789,LotSeq survival (ext. + history),1,0.0421635
+pooled,12379,0.661597,0.790269,0.358982,LotSeq survival (ext. + history),1,0.0421635
+0.5,4543,0.649899,0.852812,0.362287,LotSeq survival (ext. + history),2,0.0438417
+1.0,3427,0.653046,0.838701,0.325259,LotSeq survival (ext. + history),2,0.0438417
+2.0,2140,0.670184,0.810469,0.295202,LotSeq survival (ext. + history),2,0.0438417
+4.0,1115,0.65354,0.730101,0.275706,LotSeq survival (ext. + history),2,0.0438417
+8.0,600,0.620393,0.662947,0.280923,LotSeq survival (ext. + history),2,0.0438417
+16.0,311,0.621097,0.621792,0.282225,LotSeq survival (ext. + history),2,0.0438417
+24.0,190,0.650288,0.684734,0.248323,LotSeq survival (ext. + history),2,0.0438417
+48.0,53,0.713115,0.977642,0.201544,LotSeq survival (ext. + history),2,0.0438417
+pooled,12379,0.642869,0.765591,0.3064,LotSeq survival (ext. + history),2,0.0438417
+0.5,4543,0.659521,0.874908,0.438761,LotSeq survival (ext. + history),3,0.041651
+1.0,3427,0.66531,0.865226,0.405513,LotSeq survival (ext. + history),3,0.041651
+2.0,2140,0.684711,0.835421,0.352829,LotSeq survival (ext. + history),3,0.041651
+4.0,1115,0.665552,0.750742,0.261904,LotSeq survival (ext. + history),3,0.041651
+8.0,600,0.639192,0.671881,0.293529,LotSeq survival (ext. + history),3,0.041651
+16.0,311,0.655228,0.668247,0.342337,LotSeq survival (ext. + history),3,0.041651
+24.0,190,0.674101,0.733401,0.300119,LotSeq survival (ext. + history),3,0.041651
+48.0,53,0.69225,0.894309,0.156408,LotSeq survival (ext. + history),3,0.041651
+pooled,12379,0.654207,0.786739,0.352913,LotSeq survival (ext. + history),3,0.041651
+0.5,4543,0.664302,0.868811,0.44066,LotSeq survival (ext. + history),4,0.0433562
+1.0,3427,0.667835,0.857145,0.391902,LotSeq survival (ext. + history),4,0.0433562
+2.0,2140,0.683477,0.825835,0.331034,LotSeq survival (ext. + history),4,0.0433562
+4.0,1115,0.661271,0.745454,0.269903,LotSeq survival (ext. + history),4,0.0433562
+8.0,600,0.636013,0.668955,0.218882,LotSeq survival (ext. + history),4,0.0433562
+16.0,311,0.648622,0.693693,0.236206,LotSeq survival (ext. + history),4,0.0433562
+24.0,190,0.626977,0.654697,0.226083,LotSeq survival (ext. + history),4,0.0433562
+48.0,53,0.69225,0.939024,0.134818,LotSeq survival (ext. + history),4,0.0433562
+pooled,12379,0.655163,0.780268,0.329046,LotSeq survival (ext. + history),4,0.0433562
+0.5,4543,0.66738,0.872921,0.470371,LotSeq survival (ext. + history),5,0.0421724
+1.0,3427,0.674302,0.864642,0.440643,LotSeq survival (ext. + history),5,0.0421724
+2.0,2140,0.692501,0.8332,0.37964,LotSeq survival (ext. + history),5,0.0421724
+4.0,1115,0.673241,0.76312,0.321904,LotSeq survival (ext. + history),5,0.0421724
+8.0,600,0.65537,0.696703,0.341261,LotSeq survival (ext. + history),5,0.0421724
+16.0,311,0.67866,0.721879,0.368932,LotSeq survival (ext. + history),5,0.0421724
+24.0,190,0.677288,0.731143,0.318917,LotSeq survival (ext. + history),5,0.0421724
+48.0,53,0.706408,0.963415,0.15242,LotSeq survival (ext. + history),5,0.0421724
+pooled,12379,0.66181,0.791251,0.388182,LotSeq survival (ext. + history),5,0.0421724
+0.5,4543,0.667443,0.881451,0.449859,LotSeq survival (ext. + history),ensemble,
+1.0,3427,0.673991,0.871615,0.413869,LotSeq survival (ext. + history),ensemble,
+2.0,2140,0.693308,0.841751,0.35871,LotSeq survival (ext. + history),ensemble,
+4.0,1115,0.67521,0.764584,0.299601,LotSeq survival (ext. + history),ensemble,
+8.0,600,0.653883,0.695886,0.297782,LotSeq survival (ext. + history),ensemble,
+16.0,311,0.661034,0.696868,0.324399,LotSeq survival (ext. + history),ensemble,
+24.0,190,0.668092,0.711721,0.310171,LotSeq survival (ext. + history),ensemble,
+48.0,53,0.726528,0.95935,0.160817,LotSeq survival (ext. + history),ensemble,
+pooled,12379,0.661942,0.795118,0.364833,LotSeq survival (ext. + history),ensemble,
+0.5,4543,0.659578,0.880916,0.427166,LotSeq decision-focused ranker,1,
+1.0,3427,0.672348,0.87202,0.391881,LotSeq decision-focused ranker,1,
+2.0,2140,0.69433,0.841633,0.336194,LotSeq decision-focused ranker,1,
+4.0,1115,0.677994,0.772961,0.266462,LotSeq decision-focused ranker,1,
+8.0,600,0.651846,0.706939,0.213708,LotSeq decision-focused ranker,1,
+16.0,311,0.648767,0.696303,0.234639,LotSeq decision-focused ranker,1,
+24.0,190,0.652021,0.699977,0.259304,LotSeq decision-focused ranker,1,
+48.0,53,0.679583,0.947154,0.145309,LotSeq decision-focused ranker,1,
+pooled,12379,0.659654,0.79655,0.326017,LotSeq decision-focused ranker,1,
+0.5,4543,0.650176,0.870947,0.433068,LotSeq decision-focused ranker,2,
+1.0,3427,0.659865,0.859967,0.390438,LotSeq decision-focused ranker,2,
+2.0,2140,0.683141,0.830334,0.342041,LotSeq decision-focused ranker,2,
+4.0,1115,0.665658,0.754292,0.284038,LotSeq decision-focused ranker,2,
+8.0,600,0.645254,0.701143,0.282203,LotSeq decision-focused ranker,2,
+16.0,311,0.633769,0.64863,0.226518,LotSeq decision-focused ranker,2,
+24.0,190,0.647996,0.674006,0.247372,LotSeq decision-focused ranker,2,
+48.0,53,0.719821,0.955285,0.163095,LotSeq decision-focused ranker,2,
+pooled,12379,0.64966,0.784521,0.338998,LotSeq decision-focused ranker,2,
+0.5,4543,0.649628,0.878005,0.40353,LotSeq decision-focused ranker,3,
+1.0,3427,0.662581,0.867215,0.372462,LotSeq decision-focused ranker,3,
+2.0,2140,0.682944,0.83445,0.318871,LotSeq decision-focused ranker,3,
+4.0,1115,0.66779,0.761569,0.262592,LotSeq decision-focused ranker,3,
+8.0,600,0.631276,0.674852,0.236572,LotSeq decision-focused ranker,3,
+16.0,311,0.633977,0.646759,0.243022,LotSeq decision-focused ranker,3,
+24.0,190,0.662474,0.719851,0.32428,LotSeq decision-focused ranker,3,
+48.0,53,0.690015,0.916667,0.156408,LotSeq decision-focused ranker,3,
+pooled,12379,0.65008,0.788319,0.32042,LotSeq decision-focused ranker,3,
+0.5,4543,0.65658,0.878155,0.441047,LotSeq decision-focused ranker,4,
+1.0,3427,0.667249,0.868231,0.410258,LotSeq decision-focused ranker,4,
+2.0,2140,0.687737,0.838663,0.338613,LotSeq decision-focused ranker,4,
+4.0,1115,0.674568,0.771185,0.264359,LotSeq decision-focused ranker,4,
+8.0,600,0.641491,0.688292,0.248435,LotSeq decision-focused ranker,4,
+16.0,311,0.650221,0.697695,0.285079,LotSeq decision-focused ranker,4,
+24.0,190,0.630667,0.667683,0.250883,LotSeq decision-focused ranker,4,
+48.0,53,0.705663,0.916667,0.219709,LotSeq decision-focused ranker,4,
+pooled,12379,0.655471,0.792137,0.343623,LotSeq decision-focused ranker,4,
+0.5,4543,0.64644,0.876558,0.414267,LotSeq decision-focused ranker,5,
+1.0,3427,0.661502,0.867696,0.389697,LotSeq decision-focused ranker,5,
+2.0,2140,0.68668,0.834737,0.353804,LotSeq decision-focused ranker,5,
+4.0,1115,0.671179,0.761629,0.267633,LotSeq decision-focused ranker,5,
+8.0,600,0.641441,0.681349,0.273031,LotSeq decision-focused ranker,5,
+16.0,311,0.661314,0.697347,0.273177,LotSeq decision-focused ranker,5,
+24.0,190,0.664934,0.71093,0.270355,LotSeq decision-focused ranker,5,
+48.0,53,0.692996,0.971545,0.199938,LotSeq decision-focused ranker,5,
+pooled,12379,0.650504,0.790467,0.337325,LotSeq decision-focused ranker,5,
+0.5,4543,0.656541,0.884778,0.423374,LotSeq decision-focused ranker,ensemble,
+1.0,3427,0.669101,0.875524,0.402522,LotSeq decision-focused ranker,ensemble,
+2.0,2140,0.692623,0.844911,0.341762,LotSeq decision-focused ranker,ensemble,
+4.0,1115,0.678296,0.775003,0.273357,LotSeq decision-focused ranker,ensemble,
+8.0,600,0.651439,0.704097,0.272915,LotSeq decision-focused ranker,ensemble,
+16.0,311,0.651551,0.686755,0.288526,LotSeq decision-focused ranker,ensemble,
+24.0,190,0.658645,0.703647,0.25721,LotSeq decision-focused ranker,ensemble,
+48.0,53,0.708644,0.963415,0.203522,LotSeq decision-focused ranker,ensemble,
+pooled,12379,0.657729,0.798689,0.343721,LotSeq decision-focused ranker,ensemble,

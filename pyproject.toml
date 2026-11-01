@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holdesc"
+version = "1.0.0"
+description = "Survival analysis and budgeted escalation of lot holds"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "scipy>=1.11", "scikit-learn>=1.4", "lightgbm>=4.3",
+                "xgboost>=2.0", "lifelines>=0.28", "matplotlib>=3.8", "pyyaml>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

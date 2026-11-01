@@ -1,0 +1,29 @@
+budget,policy,saved_mean,rel_mean,rel_p05,rel_p95,share_better
+6,Age (oldest first),57.2822,0,0,0,0
+6,Ensemble (paper),62.5204,0.0912783,0.0693555,0.115436,1
+6,LightGBM gain regression (ext.),61.1022,0.0669107,0.0418451,0.0846599,1
+6,LotSeq decision-focused ranker,67.4054,0.176562,0.148317,0.208067,1
+6,Oracle,82.778,0.444955,0.383565,0.510356,1
+6,"Oracle, effect-aware",83.7758,0.462491,0.405462,0.526807,1
+6,effect-aware LotSeq survival (ext. + history),66.6518,0.163316,0.132765,0.212867,1
+12,Age (oldest first),72.6805,0,0,0,0
+12,Ensemble (paper),82.157,0.129787,0.100688,0.153108,1
+12,LightGBM gain regression (ext.),82.006,0.128871,0.108293,0.147008,1
+12,LotSeq decision-focused ranker,87.4069,0.202258,0.16949,0.238864,1
+12,Oracle,102.653,0.410864,0.353877,0.477102,1
+12,"Oracle, effect-aware",103.61,0.424041,0.370222,0.488355,1
+12,effect-aware LotSeq survival (ext. + history),86.168,0.184929,0.159335,0.221155,1
+24,Age (oldest first),98.8041,0,0,0,0
+24,Ensemble (paper),108.656,0.0989426,0.0816542,0.116424,1
+24,LightGBM gain regression (ext.),110.005,0.113124,0.100042,0.127928,1
+24,LotSeq decision-focused ranker,111.323,0.125755,0.102061,0.143355,1
+24,Oracle,119.774,0.210902,0.191486,0.23121,1
+24,"Oracle, effect-aware",120.347,0.216714,0.200065,0.238629,1
+24,effect-aware LotSeq survival (ext. + history),110.29,0.115002,0.0961582,0.137595,1
+48,Age (oldest first),118.245,0,0,0,0
+48,Ensemble (paper),123.463,0.0437327,0.038517,0.0509833,1
+48,LightGBM gain regression (ext.),123.974,0.0479516,0.0417465,0.0564443,1
+48,LotSeq decision-focused ranker,124.14,0.0491858,0.0419818,0.0591484,1
+48,Oracle,126.601,0.069793,0.0609004,0.0830943,1
+48,"Oracle, effect-aware",126.709,0.0707134,0.0617229,0.0840998,1
+48,effect-aware LotSeq survival (ext. + history),124.437,0.051871,0.0464372,0.0597408,1

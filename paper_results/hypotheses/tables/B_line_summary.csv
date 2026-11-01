@@ -1,0 +1,2 @@
+line,package_families,months,holds,lots,train,val,test,test_days,test_weeks,median_h,share_gt8h,departments,largest_department_share,lots_with_sod
+B,4,7,135685,15628,81411,27137,27137,26.5,5,1.064,0.115,5,0.942,0

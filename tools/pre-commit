@@ -1,0 +1,3 @@
+#!/bin/sh
+# Block commits that could leak confidential data (see tools/check_confidentiality.py)
+python tools/check_confidentiality.py || { echo "Commit blocked by confidentiality check."; exit 1; }

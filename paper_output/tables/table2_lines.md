@@ -1,0 +1,15 @@
+**Table 2. Data of the production lines.**
+
+|  | Line A | Line B |
+|---|---|---|
+| Package families | 1 | 4 |
+| Observation period (months) | 6 | 7 |
+| Holds / lots | 37,575 / 5,820 | 135,685 / 15,628 |
+| Training / validation / test holds | 22,545 / 7,515 / 7,515 | 81,411 / 27,137 / 27,137 |
+| Test days (weeks) | 45 (8) | 26.5 (5) |
+| Median hold duration (h) | 0.85 | 1.06 |
+| Holds longer than 8 h (%) | 8.9 | 11.5 |
+| Departments; share of largest (%) | 4; 70.5 | 5; 94.2 |
+| Lots with customer SOD; late lots in test period | all; 1,492 | none; – |
+
+Note: codes of departments, reasons, and steps are anonymised; the test period is the last 20% of holds by onset time.

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and the archived software version."
+title: "hold-escalation: survival analysis and budgeted escalation of lot holds"
+version: 2.0.0
+license: MIT
+authors:
+  - family-names: Surahman
+    given-names: Dedi
+    affiliation: "National Cheng Kung University"
+  - family-names: Hsieh
+    given-names: Yu-Ming
+    affiliation: "National Cheng Kung University"
+repository-code: "https://github.com/Dedi42/hold-escalation.git"
+keywords: [lot hold, escalation policy, survival analysis, deep learning, semiconductor manufacturing]
+preferred-citation:
+  type: article
+  title: "Budgeted escalation of lot holds in semiconductor manufacturing: a remaining-time index evaluated on two production lines"
+  authors:
+    - family-names: Surahman
+      given-names: Dedi
+    - family-names: Hsieh
+      given-names: Yu-Ming
+  journal: "International Journal of Production Research"
+  status: submitted

@@ -1,0 +1,24 @@
+# Configuration for the synthetic data set (python scripts/make_synthetic.py)
+holds:
+  path: data/synthetic_B/holds.csv
+  columns:            # standard name: column in the input file
+    lot_id: lot
+    step: step_code
+    reason: reason_code
+    department: dept_code
+    start_time: hold_start
+    release_time: hold_release
+    priority: lot_priority
+    lot_type: lot_kind
+    product_family: family
+    quantity: wafers
+    rework: rework_flag
+  yes_values:
+    rework: ["Y"]
+lots:
+  path: data/synthetic_B/lots.csv
+  columns:
+    lot_id: lot
+    completion_time: completion
+    due_time: due
+    risk: risk_score
