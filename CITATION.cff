@@ -3,6 +3,7 @@ message: "If you use this software, please cite the paper and the archived softw
 title: "hold-escalation: survival analysis and budgeted escalation of lot holds"
 version: 2.0.0
 license: MIT
+DOI: 10.5281/zenodo.23861564
 authors:
   - family-names: Surahman
     given-names: Dedi
@@ -10,7 +11,7 @@ authors:
   - family-names: Hsieh
     given-names: Yu-Ming
     affiliation: "National Cheng Kung University"
-repository-code: "https://github.com/Dedi42/lot-hold-escalation"
+repository-code: "https://github.com/Dedi42/Hold-escalation"
 keywords: [lot hold, escalation policy, survival analysis, deep learning, semiconductor manufacturing]
 preferred-citation:
   type: article
